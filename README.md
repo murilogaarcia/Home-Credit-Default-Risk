@@ -165,11 +165,6 @@ O `TARGET` só existe para clientes que **já tiveram crédito concedido** — n
 - **Viés de seleção (reject inference):** qualquer corte simulado assume que o comportamento dos clientes no decil recusado seria igual ao observado historicamente para clientes daquele perfil que foram aprovados. Não sabemos como se comportariam solicitantes com perfil semelhante que nunca chegaram a ser aprovados — o que pode subestimar ou superestimar o ganho real de qualquer novo ponto de corte.
 - Por isso, os números acima devem ser lidos como uma comparação relativa entre modelos (Bureau vs. Bureau + Installments + Credit Card), e não como uma estimativa definitiva de ganho financeiro caso a política fosse implementada.
 
-**Pendente:**
-- Formalizar um ponto de corte de aprovação/recusa único, com justificativa de negócio explícita (não apenas os dois cenários exploratórios acima).
-- Investigar técnicas de *reject inference* para mitigar o viés de a base representar só a carteira aprovada.
-- Considerar o contexto de inclusão financeira do público-alvo na calibração do corte — evitar que a política penalize desproporcionalmente clientes sem histórico suficiente.
-
 ---
 
 ## 📈 Resultado da submissão
